@@ -25,7 +25,7 @@ WMS-142 | The user interface controls do not work on Internet Explorer 11.
 
 Since you are reading this, we assume you have succeeded in obtaining and extracting the widget ZIP file. This section discusses the contents of the package.
 
-* **sample-app**: Contains a sample implementation of the widget. Visit our [live demo](https://wmsdemo.herokuapp.com) to see the sample app in action.
+* **sample-app**: Contains a sample implementation of the widget. 
 
 * **images**: Contains image files that the widget needs for its user interface.
 
@@ -102,13 +102,17 @@ To enable actual users to share screens using the widget, follow the steps discu
 
 ## Adding the widget to an existing web page
 
-1. Add the following script tags to the web page:
+1. Add a `script` tag to load the wms-min.js file.
     ```html
     <script src="path/wms-min.js"></script>
-    <link rel="stylesheet" href="path/wms-min.css">
     ```
 
-2. Define a container for the widget in your web page.
+2. Add a `link` tag to load the wms-min.css file.
+    ```html
+    <link rel="stylesheet" href="path/wms-min.css">
+    ````
+
+3. Define a container for the widget.
     ```html
     <div class="container">
     <div id="widget_container" style="width:380px; margin:50px auto 0;"></div>
@@ -180,12 +184,10 @@ Once you have your new CSS file, upload it to the web server. Then add a `link r
 
 ### Reviewing error messages and logs
 
-As you work to implement the widget in your website, you may run into various error conditions. This section provides the information you need to resolve them. 
-
-While developing, you should open up the console of each browser to review the widget log and error messages displayed there. This procedure varies per browser.
-* **Chrome**: open **Developer Tools** and click **Console**.
-* **Firefox**: open **Developer Tools** and select **Web Console**.
-* **Internet Explorer**: press F12 and click **Console**.
+The widget provides log and error messages within the browser console. The procedure for accessing the console varies per browser.
+* **Chrome**&mdash;open **Developer Tools** and click **Console**.
+* **Firefox**&mdash;open **Developer Tools** and select **Web Console**.
+* **Internet Explorer**&mdash;press F12 and click **Console**.
 
 
 ### Network connection errors
