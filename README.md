@@ -13,8 +13,8 @@ The Wealth Management Solution widget makes it easy to embed the following one-t
 Review the requirements for [OpenTok](https://tokbox.com/developer/requirements/).
 
 The widget supports the following browsers:
-* Chrome, latest release
-* Firefox, latest release
+* Chrome 47 or later
+* Firefox 43 or later
 * Internet Explorer 11 (See [Known Issues](#known-issues))
 
 
@@ -27,7 +27,7 @@ WMS-161 | Internet Explorer 11 clients cannot share their screens.
 
 ## About the contents of the widget ZIP file
 
-Since you are reading this, we assume you have succeeded in obtaining and extracting the widget ZIP file. This section discusses the contents of the package.
+Since you are reading this, we assume you have succeeded in obtaining and extracting the widget ZIP file. If you do not have the package and would like it, feel free to [reach out to us](https://tokbox.com/contact/sales). This section discusses the contents of the package.
 
 * **sample-app**: Contains a sample implementation of the widget. 
 
@@ -136,7 +136,7 @@ Name  | Required? | Value(s)
 `onWMSStarted` | No | Define the function to call after a successful initialization of the widget and start of the communications session.
 `onWMSEnded` | No | Define the function to call after the communications session ends.
 `onWMSError` | No | Define the function to call if there is an error loading the widget or starting the communications session.
-`el` | Yes | The name of the widget's container, e.g., `$("#widget_container")`.
+`el` | Yes | The id attribute of the widget's container element, e.g., `$("#widget_container")`.
 `extensionID` | No | To allow a Chrome client to share their screen, you must use this parameter to pass the ID of your Chrome extension. (See [Enabling production screen sharing](#enabling-production-screen-sharing).)
 `extensionPathFF` | No | If you choose to develop a Firefox screen sharing extension, include the path to the XPI file here. If you have chosen to whitelist your domain with Mozilla instead, leave this blank. (See [Enabling production screen sharing](#enabling-production-screen-sharing).) 
 
