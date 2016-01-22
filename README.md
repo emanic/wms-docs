@@ -1,7 +1,7 @@
 ![logo](tokbox-logo.png)
 # OpenTok Wealth Management Solution <br/>Version 0.1 
 
-The Wealth Management Solution widget makes it easy to embed video, audio, text, and screen sharing communications in a website.
+The Wealth Management Solution widget makes it easy to embed one-to-one video, audio, text, and screen sharing communications in a website.
 
 
 ## Requirements
@@ -18,7 +18,7 @@ The widget supports the following browsers:
 
 Number  | Description
 :------ | :------
-WMS-142 | The user interface controls do not work on Internet Explorer 11.
+WMS-161 | Internet Explorer 11 clients cannot share their screens.
 
 
 ## About the contents of the widget ZIP file
