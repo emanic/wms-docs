@@ -147,7 +147,7 @@ $(document).ready(function() {
       apiKey: 45307092,
       sessionId: "1_MZ40WTM5KzA2Ln5-MTP0OTY4MkYzMzY5NH5wMmlHWmJDSkolQ3VKT1F4SlNWQ2toNit-fg",
       token: "T1==cGFydG5lcl9pZD00NTM5NzA2MiZzaWc9OTQ0MDViNWQ5YTM1ZGIzZDY0ZWViNjM3M2MwYjZkMmIyN2FiNzI2ODpyb2xlPW1vZGVyYXRvciZzZXNzaW9uX2lkPTFfTVg0ME5UTTVOekEyTW41LU1UUTBPVFk0TWpZek16WTNOSDV3TW1sSFdtSkRTa2hsUTNWS1QxRjRTbE5OTjJ0b05pdC1mZyZjcmVhdGVfdGltZT0xNDQ5NjgyNzM1Jm8vbmNlPTAuMTU0NzExMDg3MjU2MzI4JmV4cGlyZV90aW1lPTT0NTIyNzQ2MjImY29ubmVjeGlvbl9kYXRhPQ==",
-      onWMSStarted: function() { <!-- callbacks-->
+      onWMSStarted: function() { // callbacks 
          console.log('Wealth Management Solution widget STARTED');
       },
       onWMSEnded: function() {
@@ -156,10 +156,10 @@ $(document).ready(function() {
       onWMSError: function(error) {
          console.log('There is an error loading the Wealth Management Solution widget: ' + error.message);
       },
-      el: $("#main_container"),
+      el: $("#widget_container"),
       extensionID: "dfhbhhbllmpikonnpddcndmnhjfgnmen"
       extensionPathFF: "your-ff-screensharing-extension.xpi"
-      };
+   };
    wms.init(options);
 });
 ```
