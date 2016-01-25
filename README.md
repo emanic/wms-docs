@@ -53,7 +53,7 @@ Before continuing further, make sure you have the following:
 
 * **API Key**: You can get this by [signing up for an OpenTok developer account](https://dashboard.tokbox.com/users/sign_up). It's free for thirty days, no credit card required. 
 
-* **Session ID** & **token**: During the test and development phases, you can generate these manually from the OpenTok [Developer Dashboard](https://dashboard.tokbox.com/). Before you go into production, you must deploy one of the [OpenTok server SDKs](https://tokbox.com/developer/sdks/server/) to generate these values automatically. If you do not want to use one of the server SDKs that we provide, you can make calls directly against the [OpenTok REST API](https://tokbox.com/developer/rest/).
+* **Session ID** & **token**: During the test and development phases, you can generate these manually from the OpenTok [Developer Dashboard](https://dashboard.tokbox.com/). Before you go into production, you must deploy one of the [OpenTok server SDKs](https://tokbox.com/developer/sdks/server/) to generate these values dynamically. If you do not want to use one of the server SDKs that we provide, you can make calls directly against the [OpenTok REST API](https://tokbox.com/developer/rest/).
 
 
 ## Deploying the widget
