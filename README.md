@@ -1,7 +1,7 @@
 ![logo](tokbox-logo.png)
 # OpenTok Wealth Management Solution <br/>Version 0.1 
 
-The Wealth Management Solution widget makes it easy to embed the following one-to-one communications in a website.
+The Wealth Management Solution widget makes it easy to embed one-to-one communications in a website:
 * Video
 * Audio
 * Text
@@ -136,7 +136,7 @@ Name  | Required? | Value(s)
 `onWMSStarted` | No | Define the function to call after a successful initialization of the widget and start of the communications session.
 `onWMSEnded` | No | Define the function to call after the communications session ends.
 `onWMSError` | No | Define the function to call if there is an error loading the widget or starting the communications session.
-`el` | Yes | The id attribute of the widget's container element, e.g., `$("#widget_container")`.
+`el` | Yes | The widget container element. You can use jQuery for this `$("#widget_container")`, where `widget_container` is the id of the container element. 
 `extensionID` | No | To allow a Chrome client to share their screen, you must use this parameter to pass the ID of your Chrome extension. (See [Enabling production screen sharing](#enabling-production-screen-sharing).)
 `extensionPathFF` | No | If you choose to develop a Firefox screen sharing extension, include the path to the XPI file here. If you have chosen to whitelist your domain with Mozilla instead, leave this blank. (See [Enabling production screen sharing](#enabling-production-screen-sharing).) 
 
