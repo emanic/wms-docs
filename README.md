@@ -49,7 +49,7 @@ Since you are reading this, we assume you have succeeded in obtaining and extrac
 
 Before continuing further, make sure you have the following:
 
-* **A secure web server**: The page containing the widget must be served over HTTPS to allow screen sharing and support clients running [Chrome 47 or later](https://groups.google.com/forum/#!topic/discuss-webrtc/sq5CVmY69sc). Localhost addresses are fine as long as they are served over HTTPS. Browser security limitations prevent you from publishing video using a `file://` path, as discussed in the [OpenTok.js Release Notes](https://www.tokbox.com/developer/sdks/js/release-notes.html#knownIssues). If you do not already have a secure web server, you can use [MAMP](https://www.mamp.info/), [Apache](https://httpd.apache.org/), or a free cloud service like [Heroku](https://www.heroku.com/).
+* **A secure web server**: The page containing the widget must be served over HTTPS to allow screen sharing and support clients running [Chrome 47 or later](https://groups.google.com/forum/#!topic/discuss-webrtc/sq5CVmY69sc). Browser security limitations prevent you from publishing video using a `file://` path, as discussed in the [OpenTok.js Release Notes](https://www.tokbox.com/developer/sdks/js/release-notes.html#knownIssues). If you do not already have a secure web server, you can use [MAMP](https://www.mamp.info/), [XAMPP](https://www.apachefriends.org/index.html), or a free cloud service like [Heroku](https://www.heroku.com/). 
 
 * **API Key**: You can get this by [signing up for an OpenTok developer account](https://dashboard.tokbox.com/users/sign_up). It's free for thirty days, no credit card required. 
 
